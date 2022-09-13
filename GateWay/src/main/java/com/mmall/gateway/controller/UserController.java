@@ -28,7 +28,7 @@ public class UserController {
     }
 
     @PostMapping("/login")
-    public ServerResponse<MmallUser> login(@RequestBody MmallUser mmallUser) throws MmallException {
+    public ServerResponse<MmallUser> login(@RequestBody MmallUser mmallUser){
 
         log.info("登陆接口入参->{}", mmallUser);
 

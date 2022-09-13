@@ -1,4 +1,4 @@
-package com.mmall.gateway;
+package com.mmall.gateway.utils;
 
 import com.mmall.gateway.exception.MmallException;
 import com.mmall.gateway.exception.MmallExceptionEnum;

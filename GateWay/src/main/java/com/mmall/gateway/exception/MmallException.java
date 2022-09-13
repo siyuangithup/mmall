@@ -9,7 +9,7 @@ import lombok.Getter;
  * Date 2022/9/12 23:46
  */
 @Getter
-public class MmallException extends Exception {
+public class MmallException extends IllegalArgumentException {
     private final Integer code;
     private final String message;
 

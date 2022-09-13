@@ -1,6 +1,6 @@
 package com.mmall.gateway.service.impl;
 
-import com.mmall.gateway.Assert;
+import com.mmall.gateway.utils.Assert;
 import com.mmall.gateway.common.ServerResponse;
 import com.mmall.gateway.exception.MmallException;
 import com.mmall.gateway.exception.MmallExceptionEnum;
@@ -28,7 +28,7 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    public ServerResponse<MmallUser> login(String userName, String passWord) throws MmallException {
+    public ServerResponse<MmallUser> login(String userName, String passWord)  {
 
         //todo 是否存在一个解析jwt过程
 

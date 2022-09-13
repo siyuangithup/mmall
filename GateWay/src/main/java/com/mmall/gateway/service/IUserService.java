@@ -24,5 +24,5 @@ public interface IUserService {
      * @param userName 用户名
      * @param passWord 密码
      */
-    ServerResponse<MmallUser> login(String userName, String passWord) throws MmallException;
+    ServerResponse<MmallUser> login(String userName, String passWord) ;
 }
